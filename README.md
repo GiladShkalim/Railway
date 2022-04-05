@@ -1,6 +1,6 @@
 # Railway
 
-An JAVA project in Tools Development (number: 10142), as part of my B.Sc in Software Engineering at Afeka Academic College of Engineering.
+A JAVA & Python & HTML project in Tools Development (number: 10142), as part of my B.Sc in Software Engineering at Afeka Academic College of Engineering.
 
 This project presents a program, which read, sort, search, and plan routes via preorganized Train-Schedule files.
 
