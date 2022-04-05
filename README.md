@@ -10,46 +10,32 @@ Files in the repository:
 
 Python:
 
-•app - rerouting user interface to HTML-form.
+ - app - rerouting user interface to HTML-form.
 
 Java:
 
-•UserSystem
+ - UserSystem
+   - UserMain - User interface.
 
-   o UserMain - User interface.
+ - TrainSchedule
+   - controlSystem - Railway Manager menu (Data insertion via file or Keybaord, View schedule, Search route, Save file, Exit).
+   - IsearchRides - returns full route for search (including intersection).
+   - RideMangment - Functions regarding routes inputs.
+   - Ride, clockTrain, Station.
 
-•TrainSchedule
+ - Unit Test
+   - CallToMethod
+   - CheckTineTest
+   - RideManagmentTest
+   - RidesTest
+   - leavingTimeTest
 
-   o controlSystem - Railway Manager menu (Data insertion via file or Keybaord, View schedule, Search route, Save file, Exit).
-   
-   o IsearchRides - returns full route for search (including intersection).
-   
-   o RideMangment - Functions regarding routes inputs.
-   
-   o Ride, clockTrain, Station.
-
-•Unit Test
-
-   o CallToMethod
-   
-   o CheckTineTest
-   
-   o RideManagmentTest
-   
-   o RidesTest
-   
-   o leavingTimeTest
-
-•Files
-
-   o TrainSchedule - Manager input via file.
-
-   o rides - save to file
-
-   o sortRides - save to file, after sorting routes.
+ - Files
+   - TrainSchedule - Manager input via file.
+   - rides - save to file.
+   - sortRides - save to file, after sorting routes.
 
 HTML:
 
-•RailWebSite 
-
-   o index.
+ - RailWebSite 
+   - index
