@@ -1,0 +1,103 @@
+
+<html>
+<head>
+<title>ISRAEL RAILWAY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+<!--Black Header -->
+<header id="header">
+<div class="inner">
+<a href="index.html" class="logo">Israel Railwayes</a>
+<nav id="nav">
+<a href="index.html">Home</a>
+</nav></div>
+</header>
+
+
+<!-- Search table-->
+<section id="banner">
+<div center class="inner">
+<h1>Plan Ride</h1>
+<table class="editorDemoTable" style="border-collapse: collapse; background:transparent; width: 1000px;" cellspacing="5" cellpadding="0">
+<tbody>
+<tr style="height: 10px; background:transparent;">
+<td style="text-align: center; width: 400px; height: 14px; color:#ffffff;"><h4>Start</h4></td>
+<td style="text-align: center; width: 400px; height: 14px; color:#ffffff;"><h4>Finish</h4></td>
+<td style="text-align: center; width: 100px; height: 14px; color:#ffffff; text-align: right;"><h4>Hour</h4></td>
+<td></td>
+</tr>
+
+<tr style="height: 30.05px;">
+<form action="/railil" method="get">
+
+<td style="width: 350px; height: 30px; text-align: center;">
+<input id="startStation" name="startStation" role="combobox" autocomplete="off" type="text" aria-expanded="false" aria-autocomplete="list" value="מוצא" aria-label="בחר תחנת מוצא" /></td>
+<td style="width: 350px; height: 30px; text-align: center;">
+<input id="finishStation" name="finishStation" role="combobox" autocomplete="off" type="text" aria-expanded="false" aria-autocomplete="list" value="יעד" aria-label="בחר תחנת יעד" /></td>
+
+<td style="width: 100px;" align="center">
+<input style="width: 100px;" id="Hour" name="Hour" role="combobox" autocomplete="off" type="text" aria-expanded="false" aria-autocomplete="list" value="שעות" aria-label="זמנים שעות"/></td>
+<td style="width: 100px;" align="left">
+<input style="width: 100px;" id="minutes" name="minutes" role="combobox" autocomplete="off" type="text" aria-expanded="false" aria-autocomplete="list" value="דקות" aria-label="זמנים דקות" /></td>
+</td>
+
+
+</from>
+<td style="width: 200px; height: 30px; text-align: center;">
+<button type="submit" form="myRide" value="Search">Search</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- Learn more-->
+		<section id="one">
+				<div class="inner">
+					<header>
+						<h2>our search engine</h2>
+					</header>
+					<p>The objective is coding a system, which searches, sorts, and plans routes via preorganized Train-Schedule files.<br>
+						As shown, you are able to search your route, and departure time.<br>
+							Tip:     for accurate timeline, fill all search bars.<br>
+					     For more information see dedicated repository on Github.</p>
+					<ul class="actions">
+						<li><a href="https://github.com/GiladShkalim/Railway" class="button alt">Learn More - Github</a></li>
+					</ul>
+				</div>
+		</section>
+
+<!-- Names -->
+			<section id="three">
+				<div class="inner">
+					<article>
+						<div class="content">
+						</div>
+					</article>
+					<article>
+						<div class="content">
+							<span class="icon fa-laptop"></span>
+							<header>
+								<h3>Gilad Shkalim</h3>
+							</header>
+						</div>
+					</article>
+					<article>
+					<div class="content">
+					</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
